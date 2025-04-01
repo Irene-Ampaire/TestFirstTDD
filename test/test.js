@@ -10,14 +10,20 @@ import {describe, it} from "node:test";
 
 //     });
     
-    describe('multiplication test 2', function(){
+//     describe('multiplication test 2', function(){
     
-     it('check that the product of 2 and 2 is 4', function (){
+//      it('check that the product of 2 and 2 is 4', function (){
+//           // inside here assert is used
+//           assert.equal(multiply(2,2), 4);
+ 
+//      });
+//    });
+   describe('multiplication test 3', function(){
+    
+     it('check that the product of 3 and 3 is 9', function (){
           // inside here assert is used
-          assert.equal(multiply(2,2), 4);
+          assert.equal(multiply(3,3), 9);
  
      });
+
    })
-
-   
-
