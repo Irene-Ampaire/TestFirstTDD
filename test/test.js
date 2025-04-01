@@ -27,13 +27,21 @@ import {describe, it} from "node:test";
 //      });
 
 //    })
-describe('multiplication test 4', function(){
+// describe('multiplication test 4', function(){
     
-     it('check that the product of 4 and 4 is 16', function (){
+//      it('check that the product of 4 and 4 is 16', function (){
+//           // inside here assert is used
+//           assert.equal(multiply(4,4), 16);
+ 
+//      });
+
+//    })
+describe('multiplication test 5', function(){
+    
+     it('check that the product of 23 and 45 is 23*45', function (){
           // inside here assert is used
-          assert.equal(multiply(4,4), 16);
+          assert.equal(multiply(23,45), 23*45);
  
      });
 
    })
-
