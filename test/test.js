@@ -18,12 +18,22 @@ import {describe, it} from "node:test";
  
 //      });
 //    });
-   describe('multiplication test 3', function(){
+//    describe('multiplication test 3', function(){
     
-     it('check that the product of 3 and 3 is 9', function (){
+//      it('check that the product of 3 and 3 is 9', function (){
+//           // inside here assert is used
+//           assert.equal(multiply(3,3), 9);
+ 
+//      });
+
+//    })
+describe('multiplication test 4', function(){
+    
+     it('check that the product of 4 and 4 is 16', function (){
           // inside here assert is used
-          assert.equal(multiply(3,3), 9);
+          assert.equal(multiply(4,4), 16);
  
      });
 
    })
+
