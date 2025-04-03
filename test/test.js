@@ -42,16 +42,32 @@
 
 // Ampaire Irene
 // Atim Monica
-   import {assert} from "chai";
-   import factorial from "../factorial.js";
-   import {describe, it} from "node:test";
+//    import {assert} from "chai";
+//    import factorial from "../factorial.js";
+//    import {describe, it} from "node:test";
    
-   describe('factorial of a number', function(){
+//    describe('factorial of a number', function(){
        
-       it('check that the factorial of 4 is 8', function (){
-            // inside here assert is used
-            assert.equal(factorial(4), 24);
+//        it('check that the factorial of 4 is 8', function (){
+//             // inside here assert is used
+//             assert.equal(factorial(4), 24);
    
-       });
-     })
+//        });
+//      })
 
+     // Ampaire Irene
+     // Atim Monica
+        import {assert} from "chai";
+        import fibonacci from "../fibonacci.js";
+        import {describe, it} from "node:test";
+        
+        describe('fibonacci of a number', function(){
+            
+            it('check that the fibonacci of 4 is [0, 1, 1, 2]', function (){
+               const expected = [0, 1, 1, 2];
+               const actual = fibonacci(4);
+               assert.deepStrictEqual(actual, expected); // Use deepStrictEqual for array comparison
+          
+            });
+          })
+     
