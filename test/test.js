@@ -15,41 +15,28 @@ describe('multiplication test 1', function(){
           assert.equal(multiply(2,2), 4);
  
      });
-     });
+     
    
      it('check that the product of 3 and 3 is 9', function (){
           // inside here assert is used
           assert.equal(multiply(3,3), 9);
-     it('check that the product of 3 and 3 is 9', function (){
-          // inside here assert is used
-          assert.equal(multiply(3,3), 9);
- 
-     });
+   
      });
 
 
      it('check that the product of 4 and 4 is 16', function (){
           // inside here assert is used
           assert.equal(multiply(4,4), 16);
-     it('check that the product of 4 and 4 is 16', function (){
-          // inside here assert is used
-          assert.equal(multiply(4,4), 16);
- 
-     });
+     
      });
 
  
      it('check that the product of 23 and 45 is 23*45', function (){
           // inside here assert is used
           assert.equal(multiply(23,45), 23*45);
-     it('check that the product of 23 and 45 is 23*45', function (){
-          // inside here assert is used
-          assert.equal(multiply(23,45), 23*45);
- 
+     
      });
-     });
-
-//    })
+   })
 
 // Ampaire Irene
 // Atim Monica
