@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Multiply example of  test first Test Driven Development",
   "main": "multiply.js",
+  "type": "module",
   "directories": {
     "test": "test"
   },
