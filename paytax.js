@@ -16,5 +16,4 @@ else if (n>36000){
 }
 return y
 }
-
 export default Tax;
