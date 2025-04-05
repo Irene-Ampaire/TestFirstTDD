@@ -43,15 +43,48 @@
    import {assert} from "chai";
    import factorial from "../factorial.js";
    import {describe, it} from "mocha";
-   
-   describe('factorial of a number', function(){
+
+
+describe('Factorial Function', function() {
+    it('should return 24 for factorial of 4', function() {
+        const result = factorial(4);
+        assert.strictEqual(result, 24);
+    });
+
+    it('should return 3628800 for factorial of 10', function() {
+        const result = factorial(10);
+        assert.strictEqual(result, 3628800);
+    });
+
+    it('should return 1 for factorial of 0', function() {
+        const result = factorial(0);
+        assert.strictEqual(result, 1);
+    });
+
+    it('should return undefined for negative numbers', function() {
+        const result = factorial(-1);
+        assert.strictEqual(result, undefined);
+    });
+});
+
+   // describe('factorial of a number', function(){
        
-       it('check that the factorial of 4 is 8', function (){
-            // inside here assert is used
-            assert.equal(factorial(4), 24);
-   
-       });
-     })
+   //     it('check that the factorial of 4 is 24', function (){
+   //          // inside here assert is used
+   //          assert.equal(factorial(4), 24);
+            
+   //     });
+
+   //     it('check that the factorial of 10 is 3628800', function (){
+         // inside here assert is used
+   //       assert.strictEqual(factorial(10), 3628800);
+         
+   //  });
+   //   })
+
+
+
+
 
      // Ampaire Irene
      // Atim Monica
