@@ -72,17 +72,51 @@
 
    //   Ampaire Irene
    //   Atim Monica
-        import {assert} from "chai";
-        import fibonacci from "../fibonacci.js";
-        import {describe, it} from "mocha";
+      //   import {assert} from "chai";
+      //   import fibonacci from "../fibonacci.js";
+      //   import {describe, it} from "mocha";
         
-        describe('fibonacci of a number', function(){
+      //   describe('fibonacci of a number', function(){
             
-            it('check that the fibonacci of 4 is [0, 1, 1, 2]', function (){
-               const expected = [0, 1, 1, 2];
-               const actual = fibonacci(4);
-               assert.deepStrictEqual(actual, expected); // Use deepStrictEqual for array comparison
+      //       it('check that the fibonacci of 4 is [0, 1, 1, 2]', function (){
+      //          const expected = [0, 1, 1, 2];
+      //          const actual = fibonacci(4);
+      //          assert.deepStrictEqual(actual, expected); // Use deepStrictEqual for array comparison
           
-            });
-          })
-     
+      //       });
+      //     })
+
+         //  Ampaire Irene
+          // Atim Monica
+             import {assert} from "chai";
+             import Tax from "../paytax.js";
+             import {describe, it} from "mocha";
+          
+          
+          describe('Calculating tax given income Function', function() {
+              it('should return 20000 for tax of 50000', function() {
+                  const result = Tax(50000);
+                  assert.strictEqual(result, 20000);
+              });
+
+              it('should return 0 for tax of 10000', function() {
+               const result = Tax(10000);
+               assert.strictEqual(result, 0);
+           });
+
+
+            it('should return 4000 for tax of 20000', function() {
+                  const result = Tax(20000);
+                  assert.strictEqual(result, 4000);
+              
+             });
+         
+           
+              
+              
+          });
+          
+            
+          
+          
+

@@ -2,7 +2,7 @@ function  Tax (n){
     // declaration of tax amount
 let y; 
 if (n < 12000){
-    console.log('you dont hae to pay tax');
+    console.log('you dont have to pay tax');
     y = 0;
 }
 else if(n>12000 && n<36000){
@@ -16,4 +16,6 @@ else if (n>36000){
 }
 return y
 }
+
+
 export default Tax;
